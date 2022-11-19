@@ -1,0 +1,97 @@
+body, html {
+  background-color: #2b3e59;
+}
+
+.container {
+  padding-left: 2em;
+  background-image: url("./images/garage.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.selector-col {
+  background-color:rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+.selector-label {
+  color: white;
+  margin-top: .5em;
+  font-size: 1.2em;
+}
+
+.selector-label-top {
+  color: white;
+  margin-top: .5em;
+  font-size: 1.2em;
+}
+
+.selector {
+  color: white;
+  margin-top: .3em;
+  font-size: 1.2em;
+}
+
+.carImage {
+    position: absolute;
+    width: 40vw;
+    height: 40vh;
+    left: 37%;
+    transform: translateX(-50%);
+    bottom: 26%;
+}
+
+.button-div {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.leftArrow {
+    width: 10%;
+}
+
+.rightArrow {
+    width: 10%;
+}
+
+
+
+.modal-receipt-color {
+  background-color: #e3f3fc;
+}
+
+.modal-receipt-image-div {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  background-color: #e3f3fc;
+}
+
+.modal-receipt-image {
+  width: 40%;
+  height: 100px;
+}
+
+.modal-receipt-data {
+  text-align: center;
+  padding-left: 1em;
+  padding-top: .5em;
+}
+
+.modal-receipt-footer {
+  text-align: right;
+
+  padding-top: .3em;
+}
+
+.modal-receipt-button {
+  margin: .5em;
+  margin-top: 1.4em;
+
+}
+
+.modal-receipt-links {
+  color: #38314f;
+}
