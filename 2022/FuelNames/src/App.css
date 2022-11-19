@@ -1,0 +1,114 @@
+.App-header {
+    background-color: #09071a;
+    min-height: 100vh;
+}
+
+.fuelTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    letter-spacing: 0.01em;
+
+    color: #ffffff;
+}
+
+.form-control::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #01ffc8;
+    opacity: 0.4; /* Firefox */
+    font-weight: 700;
+}
+
+.form-control:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #01ffc8;
+}
+
+.form-control::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #01ffc8;
+}
+
+.btn.btn-primary[disabled] {
+    background-color: grey;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+    color: #09071a;
+    background: #01ffc8 !important;
+    border: none !important;
+    /*set the color you want here*/
+}
+.searchResultMatch {
+    border: 1px solid white !important;
+    border-radius: 30px;
+    height: 300px;
+}
+
+.exactMatch {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: -0.03em;
+    color: white;
+}
+.matched {
+    background-color: #01ffc8;
+    color: #09071a;
+    text-align: center;
+    padding: 7px;
+    margin-top: 35px;
+    font-weight: 300;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 170px;
+}
+.unmatched {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 170px;
+}
+
+.registerDomain {
+    border-radius: 30px;
+    width: 190px;
+    font-size: 20px;
+    background-color: white;
+    color: #09071a;
+    border: 1px solid grey !important;
+}
+
+.modalConfirmation {
+    border: 1px solid #01ffc8 !important;
+    border-radius: 45px;
+}
+
+.modal-content {
+    border: 1px solid white !important;
+    border-radius: 30px !important;
+}
+
+.viewNFT {
+    border-radius: 30px;
+    width: 190px;
+    font-size: 20px;
+    background-color: rgb(145, 237, 176);
+    color: #09071a;
+    border: 1px solid grey !important;
+}
+
+.alert {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(1, 255, 200, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    border: none;
+    border-radius: 30px;
+}
