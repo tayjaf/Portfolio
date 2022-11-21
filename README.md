@@ -24,3 +24,5 @@ https://www.linkedin.com/in/tayyabjafar/
 
 
 **2022 - SORA (Bridge Alert Bot & Governance Bot)** - created a bot  written in Python and using SubstrateInterface (rust) that would indicate in a Telegram channel or group when a suspicious transaction takes place on the SORA HASHI bridge (deployment of contracts and transactions touching Tornado Cash), and when a governance vote is initiated or voted upon.
+
+**2022 - SFHackathon Project (Fuel Names)** - created a project in a team of 4 for the SFHackathon hosted by ETHGlobal; built for the Fuel Labs sponsor. Wrote smart contracts in Sway (developed from rust) and helped assist in front-end design.
